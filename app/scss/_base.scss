@@ -1,0 +1,13 @@
+footer{
+    color: $accent-color;
+    font-family: $font-main;
+    background-color: $background-color;
+
+    h2{
+        text-transform: uppercase;
+        font-family: $font-title;
+        color: $font-color;
+        font-size: 1.3rem;
+    }
+    
+}

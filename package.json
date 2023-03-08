@@ -4,11 +4,11 @@
   "description": "exercice au sass, integration d'un footer",
   "main": "index.js",
   "scripts": {
-    "sass": "./app/scss/main.scss ./public/css/style.css --watch --style compressed"
+    "sass": "sass ./app/scss/main.scss ./public/css/style.css --watch --style compressed"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SylvainBarr/integration-footer-sass.git"
+    "url": "git+https://github.com/SylvainBarr/integration-footer.git"
   },
   "keywords": [
     "sass",
