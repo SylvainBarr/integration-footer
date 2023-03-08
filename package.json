@@ -1,0 +1,31 @@
+{
+  "name": "sass-footer",
+  "version": "0.0.1",
+  "description": "exercice au sass, integration d'un footer",
+  "main": "index.js",
+  "scripts": {
+    "sass": "./app/scss/main.scss ./public/css/style.css --watch --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SylvainBarr/integration-footer-sass.git"
+  },
+  "keywords": [
+    "sass",
+    "footer",
+    "humanbooster",
+    "formation"
+  ],
+  "author": "sylvain barrellon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SylvainBarr/integration-footer-sass/issues"
+  },
+  "homepage": "https://github.com/SylvainBarr/integration-footer-sass#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}
