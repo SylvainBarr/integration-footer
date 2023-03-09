@@ -1,0 +1,73 @@
+.formul{
+    form{display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;}
+    
+        label{
+            display: none;
+        }
+
+        .in-text{
+            width: 45%;
+            height: 3rem;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+            background-color: $background-color;
+            border: 2px solid $dark-accent;
+
+            &::placeholder{
+                color: $accent-color;
+                font-family: $font-main;
+                padding-left: 1rem;
+            }
+
+            &:focus{
+                outline: 2px solid $dark-background;
+                background-color: $accent-color;
+                color: $dark-background;
+                &::placeholder{
+                    color: $background-color;
+                }
+            }
+        }
+
+        .in-area{
+            width: 93%;
+            resize: none;
+            height: 6rem;
+            margin-bottom: 1rem;
+            background-color: $background-color;
+            border: 2px solid $dark-accent;
+
+            &::placeholder{
+                color: $accent-color;
+                font-family: $font-main;
+                padding-left: 1rem;
+            }
+            &:focus{
+                outline: 2px solid $dark-background;
+                background-color: $accent-color;
+                color: $dark-background;
+                &::placeholder{
+                    color: $background-color;
+                }
+            }
+        }
+}
+
+@media screen and (max-width:700px){
+    .formul{
+        form{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+
+            .in-text, .in-area{
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+    }
+}
